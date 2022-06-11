@@ -12,10 +12,7 @@ switch (block) {
         return BlockTypeData.wood();
 
       case Blocks.cactus:
-        return BlockTypeData(
-          collidable: false,
-          suitableTool: Tools.axe,
-        );
+        return BlockTypeData.plant();
 
       case Blocks.coalOre:
         return BlockTypeData.stone();
