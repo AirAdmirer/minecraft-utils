@@ -9,6 +9,13 @@ List<Recipes> playerInventoryGridRecipes = [
       key: {Blocks.deadBush: "S"},
       product: Items.stick,
       productCount: 1),
+  
+  //stick
+  Recipe(
+      recipe: RegExp("^E*WEWE*\$"),
+      product: Items.stick,
+      productCount: 4,
+      key: {Items.apple: "W"}),
 
   //birch planks
   Recipes(
