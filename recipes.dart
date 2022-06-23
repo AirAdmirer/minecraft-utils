@@ -1,7 +1,3 @@
-import 'package:minecraft/global/crafting_manager.dart';
-import 'package:minecraft/resources/blocks.dart';
-import 'package:minecraft/resources/items.dart';
-
 List<Recipes> playerInventoryGridRecipes = [
   //dead bush stick
   Recipes(
