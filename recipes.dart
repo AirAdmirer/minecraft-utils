@@ -142,18 +142,19 @@ List standardGridRecipes = [
       productCount: 1),
 
   //gold sword
-  Recipes(
-      recipe: RegExp("^E*GEEGEESE*\$"),
-      key: {Items.goldIngot: "G", Items.stick: "S"},
-      product: Items.ironSword,
-      productCount: 1),
+    Recipe(
+        recipe: RegExp("^E*GEEGEESE*\$"),
+        key: {Items.goldIngot: "G", Items.stick: "S"},
+        product: Items.goldenSword,
+        productCount: 1),
 
-  //gold shovel
-  Recipes(
-      recipe: RegExp("^E*GEESEESE*\$"),
-      key: {Items.goldIngot: "G", Items.stick: "S"},
-      product: Items.ironShovel,
-      productCount: 1),
+    //gold shovel
+    Recipe(
+        recipe: RegExp("^E*GEESEESE*\$"),
+        key: {Items.goldIngot: "G", Items.stick: "S"},
+        product: Items.goldenShovel,
+        productCount: 1),
+
 
   //gold pickaxe
   Recipes(
@@ -176,12 +177,13 @@ List standardGridRecipes = [
       product: Items.diamondSword,
       productCount: 1),
 
-  //diamond shovel
-  Recipes(
-      recipe: RegExp("^E*DEESEESE*\$"),
-      key: {Items.diamond: "D", Items.stick: "S"},
-      product: Items.diamond,
-      productCount: 1),
+  
+      //diamond shovel
+    Recipe(
+        recipe: RegExp("^E*DEESEESE*\$"),
+        key: {Items.diamond: "D", Items.stick: "S"},
+        product: Items.diamondShovel,
+        productCount: 1),
 
   //diamond pickaxe
   Recipes(
